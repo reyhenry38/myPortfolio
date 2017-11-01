@@ -1,0 +1,11 @@
+}
+nav a:hover {
+	color: blue;
+}
+nav a:focus {
+	background color: red;
+}  
+
+nav a:active {
+ background color: green; 
+}

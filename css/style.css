@@ -13,7 +13,7 @@ body {
 
 .container {
 	width: 100%;
-	max-width: 1150px;
+	max-width: 950px;
 	margin: 0 auto; 
 	clear: both;
 
@@ -21,7 +21,7 @@ body {
 
 h1, h2, h3, p  {
 	margin-bottom: 20px;
-}
+}s
 
 p:last-child { 
 	margin-bottom: 0; 
@@ -113,7 +113,7 @@ border-right: 0 none;
 	padding: 30px;
 	margin: 0 0 40px 0;
 	width: 100%;
-	max-width: 650px;
+	max-width: 680px;
 	float: left;
 	border: 1px solid #ddd;
 }
@@ -128,12 +128,12 @@ border-right: 0 none;
 /*side bar*/
 .sidebar {
 	background: #fff;
-	padding: 30px;
+	padding: 15px;
 	width: 100%
-	max-width: 250px;
+	max-width: 230px;
 	float: right;
 	border: 1px solid #ddd;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 
 
@@ -146,8 +146,8 @@ h3, .sidebar, h2 {
 
 }
 .social {
-	width: 62px;
-	height: 62px;
+	width: 20px;
+	height: 20px;
 	margin-top: 8px;
 	margin-right: 5px;
 
@@ -159,11 +159,12 @@ h3, .sidebar, h2 {
 
 /*footer*/ 
 footer {
+
 	background: #666;
 	color: #fff;
 	padding: 30px 0;
 	clear: both;
-	border-top: 8px solid #4aaaa5
+	border-top: 8px solid #4aaaa5;
 	color: #ccc;
 	font-size: 12px;
 	text-align: center;
@@ -244,5 +245,13 @@ input[type=submit] {
 	paint-order: 10px 30px;
 	cursor:pointer;
 }
+
+.mediaB{
+	height: 55px
+
+}
+
+/*media queries*/
+
 
 
